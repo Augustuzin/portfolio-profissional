@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/email.css">
+    <title>Envio de e-mail</title>
+</head>
+<body>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit"method="post">  
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome">
+        <label>email</label>
+        <input type="text" name="email" placeholder="Digite seu Email" required>
+        <label>Mensagem</label>
+        <input type="Message" cols="30" rows="10" placeholder=" Sua Mensagem" required>
+        <input type="hidden" name="accessKey" value="9bf77862-d1f6-4dbc-ac9c-4497f4d6cffa">
+        <button type="submit">Enviar</button>
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/html/obrigado.html">   
+        </form>
+    </section>
+
+    
+</body>
+</html>
